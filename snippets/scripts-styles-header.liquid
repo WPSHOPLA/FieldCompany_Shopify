@@ -1,0 +1,10 @@
+
+<!-- Theme CSS -->
+{{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+{{ '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' | stylesheet_tag }}
+
+{% include 'fonts' %}
+<!-- MyFontsWebfonts -->
+{{ "MyFontsWebfontsKit.css" | asset_url | stylesheet_tag }}
+<!-- Store object -->
+{% include 'theme-options' %}
